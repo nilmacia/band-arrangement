@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+_work/
+output/
+*.analysis.wav
+.pytest_cache/

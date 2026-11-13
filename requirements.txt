@@ -1,0 +1,9 @@
+# Python 3.11, CPU-only. Keep NumPy below 2 for conservative compatibility
+# with the selected Essentia binary wheel.
+numpy>=1.24,<2.0
+scipy>=1.11,<2.0
+librosa>=0.10.2,<0.12
+soundfile>=0.12,<0.14
+beat-this==1.1.0
+# This release publishes a CPython 3.11 manylinux wheel.
+essentia==2.1b6.dev1389
